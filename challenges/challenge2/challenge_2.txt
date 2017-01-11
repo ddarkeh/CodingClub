@@ -1,0 +1,44 @@
+Create a (Rock, Paper, Scissors || Werewolf, Vampire, Monster Hunter) game that has menu at the beginning, with 3 options: -
+
+0 - Exit
+1 - Simple
+2 - Advanced (optional)
+
+Option 0 - Exit: -
+
+Will exit the program,
+
+Option 1 - Simple: -
+
+Ask the user to pick from: -
+
+(Werewolf | vampire | Monster Hunter) or (Rock | Paper | Scissors)
+
+you will create AI that will also randomly pick from the above.
+
+You will get the outcome of Win, Lose or Draw based on the below criteria
+
+Option 2 - Advanced: -
+
+Ask the user to pick an odd number of rounds as a integer that will not end up in a draw if they were all played except for 1; "best of" (best of 3, best of 5, best of 7), numbers that would not be valid would include (2, 4, 6, 8)
+
+For Each round : -
+                user picks from the criteria and AI randomly picks from the criteria
+
+                each round inform the user whether he won, lost, draw.
+
+The game ends early if either user or AI gets enough wins, so that the other side can no longer win (for example best of 5 if a user goes 3-0, then there is no point having the final 2 rounds. or in a best of 7 there's no point having the final round if a user has gone 4-2) <---- this is probably tricky to do/think about so if you want to submit something that plays each round instead that's fine, or algorithm share if you get it, understand it.
+
+Summary at the end on the overall winner and it will also calculate the time it took to play from the beginning of round 1 to the end.
+
+Closing Statement: -
+
+So here we have this bi-weekly challenge it can be finished/half complete/avoided – entirely up to you; Time frame is between now and 14/11/2016 so plenty of time to attempt it, and if you complete at least the simple option it shouldn’t take that long.  Pass it around to whoever not precious with anything and if you require further clarity let me know, also keep the bitching at a minimal, praise is so much more pleasant.  Good Luck.
+
+CRITERIA: -
+
+Werewolf > vampire > monster hunter > Werewolf
+
+or if you prefer
+
+Rock > Scissors > Paper > Rock 
