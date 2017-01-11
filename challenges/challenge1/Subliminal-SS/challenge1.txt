@@ -1,0 +1,1 @@
+Write a program that reads a user input in INTEGERS between 0 and 10000, it will then add up all the digits in the integer, for example if a user inputs 24319 the output would be = 19 (2 + 4 + 4 + 1 + 9).
