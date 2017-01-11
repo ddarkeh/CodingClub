@@ -153,7 +153,7 @@ ttk.Label(mainframe, text="Active Producers:").grid(column=Column1-1, row=5)
 tbo_producerCount = Text(mainframe, height=1, width=5)
 tbo_producerCount.grid(column=Column1, row=5)
 
-ttk.Label(mainframe, text="Producer Active?:").grid(column=Column1-1, row=6)
+ttk.Label(mainframe, text="Producers Active?:").grid(column=Column1-1, row=6)
 tbo_producerActive = Text(mainframe, height=1, width=5)
 tbo_producerActive.grid(column=Column1, row=6)
 
@@ -187,11 +187,11 @@ but_consumerStart.grid(column=Column3-1, row=3, columnspan=2 )
 but_ConsumersStop = ttk.Button(mainframe, text="Stop Consumers", command=consumerStop)
 but_ConsumersStop.grid(column=Column3-1, row=4, columnspan=2)
 
-ttk.Label(mainframe, text="Active Producers:").grid(column=Column3-1, row=5)
+ttk.Label(mainframe, text="Active Consumers:").grid(column=Column3-1, row=5)
 tbo_consumerCount = Text(mainframe, height=1, width=5)
 tbo_consumerCount.grid(column=Column3, row=5)
 
-ttk.Label(mainframe, text="Producer Active?:").grid(column=Column3-1, row=6)
+ttk.Label(mainframe, text="Consumers Active?:").grid(column=Column3-1, row=6)
 tbo_consumerActive = Text(mainframe, height=1, width=5)
 tbo_consumerActive.grid(column=Column3, row=6)
 
