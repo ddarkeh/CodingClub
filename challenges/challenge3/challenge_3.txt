@@ -1,0 +1,9 @@
+Write a hangman game that randomly generates a word from a list of 15, your program will then display asterisks to replace the letters for example: - bottle > ******
+
+Prompt the user to guess one letter at a time If they are correct print out the new output if they are incorrect it will print out that the user was incorrect
+
+Guess t > **tt**
+Guess e> **tt*e
+Guess s > S is not in the word
+
+Once the user completes the word output how many times they guessed incorrectly, and then ask them if they want to guess another word.

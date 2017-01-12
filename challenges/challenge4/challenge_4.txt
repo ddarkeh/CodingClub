@@ -1,0 +1,19 @@
+Right Challenge #4  - Time frame is over Christmas into the new year.
+
+So this one will be slightly more involved but with less hand holding and potential to code share if you want to create something truly epic
+
+The beginnings of a Text based RPG
+
+Your program will start out and the player for the following: -
+
+Hero Name : -
+Choose a Class: - Warrior (2 Damage per swing, 10 Health), Wizard (4 damage per swing, 5 health)
+Difficulty: – Easy (double the above stats by including an item in the hero’s inventory that has that effect),  Normal (no change)
+
+The Hero will have an inventory if it’s normal difficult it will be empty, if it’s easy difficulty it’ll have a item that doubles the players initial stats.
+
+The hero will start in a room which will have 3 elements that the hero can examine and a fourth option that will allow you to leave the room.  The 3 elements can be as simple as “You gaze at a rock in the corner, how unremarkable” or as involved as “you find a golden dragon sword, your damage per swing has increased by x” or even booby traps of some kind.
+
+Upon any action there should be a % chance that you get attacked by a random creature (create 5-10 monsters with damage per swing stat and a health stat), the player will always attack first, followed by the monster until the health of either is < 0.  If the monster dies give the player a % chance of getting an item from the item pool, again this can be worthless or crazy strong whatever.
+
+When the player leaves the room he will go to room#2 and then finally room#3, when he leaves room#3 he will create a boss monster with whatever stats you want, if the player defeats him he will win and save whatever princess that exists in the said program, you will display the hero’s final stats including his inventory.
